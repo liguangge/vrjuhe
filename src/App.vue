@@ -2,10 +2,10 @@
   <div class="page page-current">
       <bar v-if="isIndex">
         <bar-item path="/home" label="首页" icon="home"></bar-item>
-        <bar-item path="/home" label="任务" icon="tasks"></bar-item>
-        <bar-item path="/list" label="列表" icon="mytask"></bar-item>
-        <bar-item path="/list" label="我自己" icon="me"></bar-item>
-        <bar-item path="/list" label="更多" icon="more"></bar-item>
+        <bar-item path="/video" label="视频" icon="tasks"></bar-item>
+        <bar-item path="/game" label="游戏" icon="mytask"></bar-item>
+        <bar-item path="/mine" label="自己" icon="me"></bar-item>
+        <bar-item path="/more" label="更多" icon="more"></bar-item>
       </bar>
       <router-view></router-view>
   </div>
